@@ -1,0 +1,41 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.bg-container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  background-size: cover;
+  width: 400px;
+  height: 350px;
+  border-radius: 16px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.heading {
+  font-size: 32px;
+  color: #0f172a;
+}
+.para {
+  font-size: 20px;
+  color: #334155;
+}
+.button {
+  color: #1e293b;
+  background-color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+  border-radius: 8px;
+}
+.note {
+  font-size: 12px;
+  color: #334155;
+}
